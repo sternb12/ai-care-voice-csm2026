@@ -1,5 +1,7 @@
 # AI-CARE Voice: CSM 2026 Workshop Materials
 
+[Watch Demo](README.mp4)
+
 **Hands-On Workshop Repository**  
 APTA Combined Sections Meeting 2026  
 Session 24650: Advancing Clinical Reasoning - Voice-Interactive Digitally Simulated Patients
