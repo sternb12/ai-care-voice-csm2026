@@ -12,29 +12,31 @@ This repository contains materials for the hands-on workshop portion of our CSM 
 
 The following files guide you through the process of creating and conducting AI patient interviews:
 
-### Core Materials (90% of participants will use these three files)
+### Core Materials (Most participants will use these three files)
 
 1. **CSM_2026_Handout.pdf** - Complete workshop instructions and overview
 2. **Patient Case Extraction.txt** - Template for converting patient cases to AI format
 3. **Patient Interview.txt** - Guidelines for conducting AI patient interviews
 
-### Format Examples
+### Experiment: Different Formats
 
-4. **Patient Case Extraction TOML.txt** - Alternative TOML format example
-5. **Patient Case Extraction JSON_reasoning.txt** - Alternative JSON format with reasoning capabilities
+Different formats for extracting patient case information that you can try. Model type, version, and case information may all affect results.
+
+4. **Patient Case Extraction TOML.txt** - TOML format example
+5. **Patient Case Extraction JSON_reasoning.txt** - JSON format with reasoning capabilities
 
 ## Getting Started
 
 1. Download or review the **CSM_2026_Handout.pdf** for complete instructions
-2. Select a patient case from your curriculum
-3. Follow the **Patient Case Extraction.txt** template to format your case
-4. Use **Patient Interview.txt** to guide your interview process
+2. Select a patient case
+3. Use the **Patient Case Extraction.txt** to pull meaningful information from your chosen case
+4. Use the **Patient Interview.txt** to begin your interview BUT if you choose to modify your patient's personality and background, this is the place to do that
 5. Paste the formatted case into your preferred LLM (ChatGPT, Claude, Copilot, etc.)
 6. Begin the simulated patient interview
 
 ## What You Need
 
-- A patient case from your curriculum (or use provided examples)
+- A patient case (or use provided examples)
 - Access to a Large Language Model:
   - ChatGPT (OpenAI)
   - Claude (Anthropic)
