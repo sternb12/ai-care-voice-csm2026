@@ -1,0 +1,230 @@
+Primary Goal: Extract ONLY explicitly stated information from the uploaded patient case document using a consistent, structured TOML approach to support ECHOWS-based clinical interviewing practice.
+
+Extraction Instructions:
+- Extract information ONLY from the uploaded document
+- Use direct quotes with exact language from the document
+- Provide a location citation for each quote (e.g., "paragraph 3")
+- Use "Information not provided in the document" for any missing data
+- Do not interpret, infer, or add information not explicitly stated
+- Output all information in valid TOML format as specified below
+
+TOML Response Structure:
+Return a single valid TOML document with the following structure:
+
+[patientDemographics.age]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[patientDemographics.gender]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[patientDemographics.occupation]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[patientDemographics.livingSituation]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[chiefComplaint.primaryConcern]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[chiefComplaint.duration]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[chiefComplaint.impactOnFunction]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[chiefComplaint.patientGoals]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[historyOfPresentIllness.onset]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[historyOfPresentIllness.mechanismOfInjury]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[historyOfPresentIllness.symptomDescription]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[historyOfPresentIllness.symptomBehavior]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[historyOfPresentIllness.previousInterventions]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[historyOfPresentIllness.resultsOfPreviousInterventions]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[medicalHistory.pastMedicalConditions]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[medicalHistory.surgicalHistory]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[medicalHistory.currentMedications]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[medicalHistory.allergies]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[medicalHistory.familyHistory]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[socialHistory.employmentStatus]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[socialHistory.familySocialSupport]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[socialHistory.livingEnvironment]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[socialHistory.recreationalActivities]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[socialHistory.substanceUse]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[psychologicalFactors.moodAssessment]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[psychologicalFactors.stressLevels]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[psychologicalFactors.copingMechanisms]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[psychologicalFactors.sleepPatterns]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[psychologicalFactors.patientBeliefsAboutCondition]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[physicalExamination.observationFindings]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[physicalExamination.palpationResults]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[physicalExamination.rangeOfMotion]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[physicalExamination.strengthAssessment]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[physicalExamination.specialTests]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[physicalExamination.functionalAssessment]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[diagnosticTesting.imagingStudies]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[diagnosticTesting.laboratoryTests]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[diagnosticTesting.otherDiagnosticProcedures]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[diagnosticTesting.resultsOfTesting]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[diagnosis.primaryDiagnosis]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[diagnosis.differentialDiagnoses]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[diagnosis.diagnosticReasoning]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[diagnosis.prognosticFactors]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[treatmentPlan.interventions]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[treatmentPlan.patientEducation]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[treatmentPlan.homeProgram]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[treatmentPlan.referralsConsultations]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[treatmentPlan.followUpPlan]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[treatmentPlan.expectedOutcomes]
+quote = "Direct quote or 'Information not provided in the document'"
+location = "Location or null if information not provided"
+
+[[verificationReport.contradictions]]
+quote1 = "First contradictory quote"
+location1 = "Location of first quote"
+quote2 = "Second contradictory quote"
+location2 = "Location of second quote"
+explanation = "Brief explanation of contradiction"
+
+[[verificationReport.ambiguities]]
+quote = "Ambiguous text"
+location = "Location of ambiguous text"
+explanation = "Brief explanation of why this is ambiguous"
+
+[verificationReport.qualityControlChecks]
+allFieldsPopulated = true
+allQuotesVerbatim = true
+allLocationsCited = true
+noExternalInfo = true
+noFieldMixing = true
+
+[verificationReport]
+certification = "I confirm that all information above is directly quoted from the document with no external additions or interpretations."
