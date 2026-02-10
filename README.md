@@ -1,6 +1,10 @@
 # AI-CARE Voice: CSM 2026 Workshop Materials
 
-[Watch Demo](README.mp4)
+
+
+https://github.com/user-attachments/assets/d631f870-ef45-4032-84da-8df8a1ac8832
+
+
 
 **Hands-On Workshop Repository**  
 APTA Combined Sections Meeting 2026  
