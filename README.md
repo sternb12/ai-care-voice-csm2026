@@ -18,7 +18,7 @@ This repository contains materials for the hands-on workshop portion of our CSM 
 
 The following files guide you through the process of creating and conducting AI patient interviews:
 
-### Core Materials (Most participants will use these three files)
+### Core Materials 
 
 1. **CSM_2026_Handout.pdf** - Complete workshop instructions and overview
 2. **Patient Case Extraction.txt** - Template for converting patient cases to AI format
