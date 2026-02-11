@@ -26,10 +26,7 @@ The following files guide you through the process of creating and conducting AI 
 
 ### Experiment: Different Formats
 
-Different formats for extracting patient case information that you can try. Model type, version, and case information may all affect results.
-
-4. **Patient Case Extraction TOML.txt** - TOML format example
-5. **Patient Case Extraction JSON_reasoning.txt** - JSON format with reasoning capabilities
+Model type, version, and case information may all affect results.
 
 ## Getting Started
 
