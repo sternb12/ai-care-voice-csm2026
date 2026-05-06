@@ -23,6 +23,7 @@ The following files guide you through the process of creating and conducting AI 
 1. **CSM_2026_Handout.pdf** - Complete workshop instructions and overview
 2. **Patient Case Extraction.txt** - Template for converting patient cases to AI format
 3. **Patient Interview.txt** - Guidelines for conducting AI patient interviews
+4. **Digital Video of Instructions** - https://vimeo.com/1189604675/f107c2b1d9?share=copy&fl=sv&fe=ci
 
 ### Experiment: Different Formats
 
