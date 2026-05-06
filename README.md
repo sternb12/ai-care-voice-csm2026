@@ -1,4 +1,4 @@
-# AI-CARE Voice: CSM 2026 Workshop Materials
+# AI-CARE Voice: ACAPT 2026 and CSM 2026 Workshop Materials
 
 
 
@@ -7,12 +7,15 @@ https://github.com/user-attachments/assets/d631f870-ef45-4032-84da-8df8a1ac8832
 
 
 **Hands-On Workshop Repository**  
+ACAPT 2026 FlexCast
+Session: The Faculty Multiplier
+
 APTA Combined Sections Meeting 2026  
 Session 24650: Advancing Clinical Reasoning - Voice-Interactive Digitally Simulated Patients
 
 ## Overview
 
-This repository contains materials for the hands-on workshop portion of our CSM 2026 presentation. Participants will learn to create AI-powered simulated patient interviews using their preferred Large Language Model (ChatGPT, Claude, Copilot, etc.).
+This repository contains materials for the hands-on workshop portion of our ACAPT 2026 and CSM 2026 presentations. Participants will learn to create AI-powered simulated patient interviews using their preferred Large Language Model (ChatGPT, Claude, Copilot, etc.).
 
 ## Workshop Files
 
